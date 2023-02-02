@@ -1,10 +1,17 @@
 {
-   "users": [
-     {
-       "id": 0,
-       "email": "laurynas@gmail.com",
-       "password": "laurynas",
-       "passwordRepeat": "laurynas"
-     }
-   ]
+  "users": [
+    {
+      "id": 0,
+      "email": "laurynas@gmail.com",
+      "password": "laurynas",
+      "passwordRepeat": "laurynas"
+    },
+    {
+      "email": "lala@gmail.com",
+      "password": "123",
+      "passwordRepeat": "123",
+      "userName": "s",
+      "id": 1675324268450
+    }
+  ]
 }
