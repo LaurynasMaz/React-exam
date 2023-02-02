@@ -17,7 +17,7 @@ const Home = () => {
       fetchFromServer();
     }, []);
 
-   const renderPosts = () =>{
+   function renderPosts(){
       if (!loggedInUser) return (<h1>Please sign in</h1>)
       if (posts?.length === 0) return (<h1>No posts available</h1>);
       if (!posts) return (<img src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" alt="loading"/>)

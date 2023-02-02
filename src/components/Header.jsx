@@ -27,8 +27,7 @@ const Header = () => {
          <div className='link'>
             <Link to='/home'>Home</Link>
             <Link to='/add'>Add new Post</Link>
-            <button onClick={() => logOutUser()}>Log Out</button>
-            
+            <button onClick={() => logOutUser()}>Log Out</button>  
          </div>
          :
          <div className='link'>
