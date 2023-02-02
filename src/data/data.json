@@ -20,20 +20,6 @@
     }
   ],
   "posts": [
-    {
-      "id": 1,
-      "text": "test",
-      "description": "test labai test"
-    },
-    {
-      "id": 1675331649504,
-      "text": "dasdsa",
-      "description": "dsadsa"
-    },
-    {
-      "id": 1675336069313,
-      "text": "fdsds",
-      "description": "dsas"
-    }
+
   ]
 }
