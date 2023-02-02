@@ -23,7 +23,7 @@ const Register = () => {
          };
          addNewUser(newUser);
          setLoggedInUser(newUser);
-         navigation('/');
+         navigation('/home');
       }
    }
 

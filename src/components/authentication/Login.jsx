@@ -24,7 +24,7 @@ const Login = () => {
       }
 
       setLoggedInUser(loggedInUser);
-      navigate('/');
+      navigate('/home');
    } 
 
    return (

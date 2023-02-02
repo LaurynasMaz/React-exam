@@ -18,5 +18,12 @@
       "passwordRepeat": "test",
       "id": 1675327401865
     }
-  ]
+  ],
+   "posts": [
+      {
+      "id": 1,
+      "text": "test",
+      "description":"test labai test"
+      }
+   ]   
 }
