@@ -34,15 +34,15 @@ const Login = () => {
             <label>
             Email:
             <input type="email" name="email"
-            value={formInputs.email}
-            onChange={(e)=>setFormInputs({...formInputs, email:e.target.value})}
+               value={formInputs.email}
+               onChange={(e)=>setFormInputs({...formInputs, email:e.target.value})}
             />
             </label>
             <label>
             Password:
             <input type="password" name="password"
-            value={formInputs.password}
-            onChange={(e)=>setFormInputs({...formInputs, password:e.target.value})}
+               value={formInputs.password}
+               onChange={(e)=>setFormInputs({...formInputs, password:e.target.value})}
             />
             </label>
             <input type="submit" value="Log In" />
