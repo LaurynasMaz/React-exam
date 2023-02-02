@@ -10,8 +10,13 @@
       "email": "lala@gmail.com",
       "password": "123",
       "passwordRepeat": "123",
-      "userName": "s",
       "id": 1675324268450
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "test",
+      "passwordRepeat": "test",
+      "id": 1675327401865
     }
   ]
 }
