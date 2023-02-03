@@ -1,4 +1,4 @@
-# Projekto paruošimas projekta  
+# Projekto paruošimas 
    1) Nueiti į projekto direktoriją.
    2) npm i
 
