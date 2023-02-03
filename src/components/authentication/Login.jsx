@@ -29,7 +29,7 @@ const Login = () => {
 
    return (
    <>
-      <div>
+      <div className='form-container'>
          <form onSubmit={handleSubmit}>
             <label>
             Email:
@@ -45,7 +45,9 @@ const Login = () => {
                onChange={(e)=>setFormInputs({...formInputs, password:e.target.value})}
             />
             </label>
-            <input type="submit" value="Log In" />
+            <div className="buttonClass">
+               <button type="submit">Login</button>
+            </div>
             {
             failedLogIn && <span>Wrong email or password</span>
             }

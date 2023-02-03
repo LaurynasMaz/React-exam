@@ -29,31 +29,35 @@ const Register = () => {
 
    return (
       <>
-         <form onSubmit={handleSubmit}>
-            <label>
-               Email:
-               <input type="email" name="email" value={formInputs.email}
-                  onChange={(e) => setFormInputs({...formInputs, email:e.target.value})}
-               />
-            </label>
-            <label>
-               Password:
-               <input type="password" name="password" value={formInputs.password}
-                  onChange={(e) => setFormInputs({...formInputs, password:e.target.value})}
-               />
-            </label>
-            <label>
-               Repeat Password:
-               <input type="password" name="passwordRepeat" value={formInputs.passwordRepeat}
-                  onChange={(e) => setFormInputs({...formInputs, passwordRepeat:e.target.value})}
-               />
-            </label>
-            <input type="submit" value="Register" />
-         </form>
-         {
-            invalidEmail && <span>User with such email already exists.</span>
-         }
-      </>
+         <div className='form-container'>
+            <form onSubmit={handleSubmit}>
+               <label>
+                  Email:
+                  <input type="email" name="email" value={formInputs.email}
+                     onChange={(e) => setFormInputs({...formInputs, email:e.target.value})}
+                  />
+               </label>
+               <label>
+                  Password:
+                  <input type="password" name="password" value={formInputs.password}
+                     onChange={(e) => setFormInputs({...formInputs, password:e.target.value})}
+                  />
+               </label>
+               <label>
+                  Repeat Password:
+                  <input type="password" name="passwordRepeat" value={formInputs.passwordRepeat}
+                     onChange={(e) => setFormInputs({...formInputs, passwordRepeat:e.target.value})}
+                  />
+               </label>
+               <div className="buttonClass">
+                  <button type="submit">Register</button>
+               </div>
+            </form>
+            {
+               invalidEmail && <span>User with such email already exists.</span>
+            }
+        </div> 
+       </>
    );
 }
  

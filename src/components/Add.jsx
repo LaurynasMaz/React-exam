@@ -46,12 +46,14 @@ const Add = () => {
             </label>
             <label>
                Description:
-               <input type="textarea" name="description"
+               <textarea name="description"
                   value={formInputs.description}
                   onChange={(e) => setFormInputs({...formInputs, description:e.target.value})}
                />
             </label>
+               <div className="buttonClass">
                <button type="submit">Add new Post</button>
+               </div>
          </form>
       </div>
    );
