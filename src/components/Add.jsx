@@ -39,14 +39,14 @@ const Add = () => {
          <form onSubmit={handleSubmit}>
             <label>
                Text:
-               <input type="text" name="text"
+               <input type="text" name="text" required 
                   value={formInputs.text}
                   onChange={(e) => setFormInputs({...formInputs, text:e.target.value})}
                />
             </label>
             <label>
                Description:
-               <textarea name="description"
+               <textarea name="description" required
                   value={formInputs.description}
                   onChange={(e) => setFormInputs({...formInputs, description:e.target.value})}
                />

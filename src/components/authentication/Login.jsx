@@ -33,14 +33,14 @@ const Login = () => {
          <form onSubmit={handleSubmit}>
             <label>
             Email:
-            <input type="email" name="email"
+            <input type="email" name="email" required
                value={formInputs.email}
                onChange={(e)=>setFormInputs({...formInputs, email:e.target.value})}
             />
             </label>
             <label>
             Password:
-            <input type="password" name="password"
+            <input type="password" name="password" required
                value={formInputs.password}
                onChange={(e)=>setFormInputs({...formInputs, password:e.target.value})}
             />

@@ -33,19 +33,19 @@ const Register = () => {
             <form onSubmit={handleSubmit}>
                <label>
                   Email:
-                  <input type="email" name="email" value={formInputs.email}
+                  <input type="email" name="email" value={formInputs.email} required
                      onChange={(e) => setFormInputs({...formInputs, email:e.target.value})}
                   />
                </label>
                <label>
                   Password:
-                  <input type="password" name="password" value={formInputs.password}
+                  <input type="password" name="password" value={formInputs.password} required
                      onChange={(e) => setFormInputs({...formInputs, password:e.target.value})}
                   />
                </label>
                <label>
                   Repeat Password:
-                  <input type="password" name="passwordRepeat" value={formInputs.passwordRepeat}
+                  <input type="password" name="passwordRepeat" value={formInputs.passwordRepeat} required
                      onChange={(e) => setFormInputs({...formInputs, passwordRepeat:e.target.value})}
                   />
                </label>
