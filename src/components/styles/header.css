@@ -5,6 +5,7 @@ header{
    align-items: center;
    padding-left: 30px;
    padding-right: 30px;
+   border-bottom: 3px solid black;
 }
 
 .link{
