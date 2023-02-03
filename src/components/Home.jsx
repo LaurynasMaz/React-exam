@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import UserContext from '../contexts/UserContext';
+import './styles/home.css'
 
 
 const Home = () => {
@@ -33,7 +34,9 @@ const Home = () => {
 
    return ( 
       <>
+      <div className='home'>
       {renderPosts()}
+      </div>
       </>
    );
 }
