@@ -1,0 +1,25 @@
+footer{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: black;
+   height: 4rem;
+}
+.copyRight{
+   background-color: black;
+   color: rgb(255, 217, 0);
+}
+
+.terms {
+   background-color: black;
+   color: rgb(255, 217, 0);
+}
+.socialmedia svg{
+   fill: rgb(255, 217, 0);
+   width: 30px;
+   height: 30px;
+}
+.socialmedia svg:hover{
+   fill: blue;
+}
+

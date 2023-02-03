@@ -15,7 +15,7 @@
    margin-bottom: 0.5em;
 }
 .form-container input {
-   background-color: yellow;
+   background-color: rgb(255, 217, 0);
    flex-basis: 45%;
    padding: 0.5em;
    margin-bottom: 0.5em;
@@ -23,7 +23,7 @@
    border-radius: 4px;
 }
 .form-container textarea {
-   background-color: yellow;
+   background-color: rgb(255, 217, 0);
    flex-basis: 45%;
    padding: 0.5em;
    margin-bottom: 0.5em;
@@ -32,7 +32,7 @@
 }
 .form-container button {
    background-color: black;
-   color: yellow;
+   color: rgb(255, 217, 0);
    padding: 0.5em 1em;
    margin-top: 1em;
    border: none;

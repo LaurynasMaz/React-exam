@@ -11,14 +11,16 @@ import './components/styles/form.css'
 function App() {
    return (
       <>
-      <Routes>
-         <Route element={<Header />}>
-            <Route path="/" element={<Register />}/>
-            <Route path="/login" element={<Login />}/>
-            <Route path="/home" element={<Home />}/>
-            <Route path="/add" element={<Add />}/>
-          </Route>      
-      </Routes>
+      <div className='app'>
+         <Routes>
+            <Route element={<Header />}>
+               <Route path="/" element={<Register />}/>
+               <Route path="/login" element={<Login />}/>
+               <Route path="/home" element={<Home />}/>
+               <Route path="/add" element={<Add />}/>
+            </Route>      
+         </Routes>
+      </div>
       <Footer />
       </>
    );
